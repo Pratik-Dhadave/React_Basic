@@ -1,12 +1,13 @@
 import './App.css';
+import HookUseEffect from './HookUseEffect';
 import HookUseState from "./HookUseState";
 
 function App() {
   
   return (
     <div className="App">
-      Hello
-      <HookUseState/>
+      {/* <HookUseState/> */}
+      <HookUseEffect/>
     </div>
   );
 }

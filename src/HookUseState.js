@@ -1,14 +1,18 @@
-import React,{useState}from 'react'
+import React,{useEffect, useState}from 'react'
 
 const HookUseState = () => {
 const [count , setCount] = useState(0);
   const addCount = ()=>{
     setCount(()=>count+1);
+    console.log(count);
   }
 
   const subCount = () =>{
     setCount(()=>count-1);
+    console.log(count)
   }
+
+
 
   return (
     <div>
